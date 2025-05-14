@@ -20,7 +20,7 @@ jobs:
     steps:
     - name: Check repository name
       run: |
-        if [[ ${{ github.repository }} != "MustardChef/WSAPackages" ]]; then exit 1; fi
+        if [[ ${{ github.repository }} != "ttwogit/WSAPackages" ]]; then exit 1; fi
 
     - name: Checkout code
       uses: actions/checkout@v4
